@@ -31,4 +31,4 @@ NSTU, engineer
 
 ## Languages
 * Russian - native
-* English - everything is sad ((
+* English - everything is sad - A0
