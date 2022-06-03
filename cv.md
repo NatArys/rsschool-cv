@@ -15,6 +15,17 @@ I want to upgrade to front-en developer
 * Figma, Photoshop
 * VSCode, Sublime
 
+## Code Example
+Task from the Codewars website: Merge two sorted arrays into one.  Remove duplicated.
+```
+function mergeArrays(arr1, arr2) {
+  let arrCon = [...new Set([...arr1,...arr2])].sort(function (a, b) {
+  return a - b;
+});
+  return arrCon;
+}
+```
+
 ## Education
 NSTU, engineer
 
