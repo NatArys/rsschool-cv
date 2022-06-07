@@ -1,3 +1,3 @@
 # rsschool-cv
 
-[Page CV](https://NatArys.github.io/rsschool-cv/cv)
+[Page](https://NatArys.github.io/rsschool-cv/)
