@@ -7,3 +7,9 @@ body {
   font-family: 'Noto Sans', sans-serif;
   line-height: 1.5;
 }
+.container {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #bbb;
+  padding: 20px;
+}
