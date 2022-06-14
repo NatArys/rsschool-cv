@@ -1,0 +1,178 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #555;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+h1 {
+  font-size: 28px;
+  padding: 20px 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* border: 1px solid #bbb; */
+  padding: 20px;
+}
+
+.header {
+  background-color: #f6f6f6;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.footer {
+  background-color: #f6f6f6;
+}
+
+
+.menu__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.menu__link {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #555;
+}
+
+.menu__link:hover {
+  color: #a570d4;
+}
+
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 30px 20px;
+  border-bottom: 3px solid #a570d4;
+}
+
+.profile__logo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile__title h1,
+.profile__title h3 {
+  text-align: center;
+}
+
+.main__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.section__item {
+  position: relative;
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #a570d4;
+}
+
+.section__title {
+  position: relative;
+  padding: 10px 10px;
+}
+
+.section__title::before {
+  content: "";
+  position: absolute;
+  bottom: 13px;
+  left: 0px;
+  width: 50px;
+  height: 20px;
+  background-color: #caffba;
+  z-index: -1;
+}
+
+.section__list {
+  list-style: none;
+}
+
+.section__list-tag {
+  list-style: none;
+}
+
+.section__list-tag li {
+  display: inline-block;
+  padding: 7px 15px;
+  margin: 5px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  font-size: 16px;
+  white-space: nowrap;
+  color: #777;
+}
+
+.project__img {
+  width: 80%;
+  height: auto;
+  border: 2px solid #f0f0f0;
+  transition: .5s;
+}
+
+.project__img:hover {
+  transform: scale(1.05);
+}
+
+pre {
+  background-color: #f0f0f0;
+  font-size: 14px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo-rss {
+  width: 100px;
+  height: auto;
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    width: 100%;
+  }
+
+  .section__item {
+    width: 100%;
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: center;
+  }
+}
